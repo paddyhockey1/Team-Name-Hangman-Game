@@ -17,16 +17,16 @@ def play(word):
     print(word_completion)
     print("\n")
     while not guessed and tries > 0:
-        guess = input("Please guess a letter: ").upper()
+        guess = input("Please Guess a Letter: ").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print("You already guessed the letter", guess)
             elif guess not in word:
-                print(guess, "is not in the word.")
+                print("Sorry" guess, "is not in the word.")
                 tries -= 1
                 guessed_letters.append(guess)
             else:
-                print("Well Done", guess, "is in the word!")
+                print("Congratulatons", guess, "is in the word!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
                 indices = [i for i, letter in enumerate(word) if letter == guess]
