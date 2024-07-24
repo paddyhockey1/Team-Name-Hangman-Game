@@ -62,14 +62,27 @@ def get_word():
 def display_hangman(tries):
 
     stages = [
-        """
-          --------
-          |      |
-          |      O
-          |     \\|/
-          |      |
-          |     / \\
-          -
+        #FINAL HANGMAN FOR END OF GAME
+                """
+                     --------
+                    |      |
+                    |      O
+                    |     \\|/
+                    |      |
+                    |     / \\
+                    -
+    """,
+    #DIAGRAM FOR FIVE INCORRECT GUESSES
     """
+     
+                    --------
+                   |      |
+                   |      O
+                   |     \\|/
+                   |      |
+                   |     / 
+                   -
+                """,
     
+
     ]
