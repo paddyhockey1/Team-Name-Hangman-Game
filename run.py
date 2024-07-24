@@ -16,3 +16,6 @@ def get_word():
         guessed_letters = []
         guessed_words = []
         tries = 6
+        print("Can You Guess the Team Name?")
+        print(display_hangman(tries))
+        print("\n")
