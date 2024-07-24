@@ -1,4 +1,4 @@
-teram_list = [
+team_list = [
    
    #ADD NATIONAL FOOTBALL LEAGUE (NFL) TEAMS LIST HERE
    
