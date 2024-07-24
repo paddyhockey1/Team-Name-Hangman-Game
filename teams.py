@@ -22,7 +22,12 @@ teram_list = [
 
     #ADD NATIONAL HOCKEY LEAGUE (NHL) TEAM LIST HERE
 
-    "maple leafs", "canadiens", "senators", "panthers", "lightning", "bruins", "sabres", "red wings",
-    "hurricanes", "rangers", "devils", "islanders", "flyers", "capitals", "penguins", "blue jackets",
-    
+    "maple leafs", "canadiens", "senators", "panthers", 
+    "lightning", "bruins", "sabres", "red wings",
+    "hurricanes", "rangers", "devils", "islanders", 
+    "flyers", "capitals", "penguins", "blue jackets",
+    "avalanche", "stars", "jets", "predators", 
+    "blues", "blackhawks", "wild", "coyotes",
+    "kings", "ducks", "sharks", "kraken",
+    "canucks", "oilers", "flames", "golden knights",
 ]
