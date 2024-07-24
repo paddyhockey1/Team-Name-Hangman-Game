@@ -3,5 +3,8 @@ teram_list = [
     "falcons", "saints", "buccaneers", "panthers", 
     "cowboys", "eagles", "commanders", "giants",
     "niners", "cardinals", "rams", "seahawks",
-    
+    "bills", "jets", "patriots", "dolphins",
+    "steelers", "ravens", "browns", "bengals",
+    "colts", "jaguars", "titans", "texans",
+    "chiefs", "broncos", "raiders", "chargers",
 ]
