@@ -23,4 +23,10 @@ def get_word():
             guess = input("Please choose a Letter: ").upper()
             if len guess == 1 and guess.isalpha():
                 if guess in guessed_letters:
-                    print("Sorry, Letter Already Guessed", guess)
+                    print("Sorry. Try Again", guess)
+                    elif guess not in word:
+                        print(guess "is not in the word.")
+                        tries -= 1
+                       guessed_letters.append(guess)
+                    else:
+                        print("Well Done.", guess, "That is correct!")
