@@ -36,4 +36,7 @@ teram_list = [
     "celtics", "nets", "knicks", "sixers", "raptors", 
     "bulls", "cavaliers", "pistons", "bucks", "pacers",
     "hawks", "hornets", "heat", "magic", "wizards", 
+    "nuggets", "timberwolves", "thunder", "trail blazers", "jazz", 
+    "warriors", "clippers", "lakers", "suns", "kings", 
+    "mavericks", "rockets", "spurs", "grizzlies", "pelicans",
 ]
