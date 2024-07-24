@@ -13,7 +13,7 @@ team_list = [
 
     #ADD MAJOR LEAGUE BASEBALL (MLB) TEAMS LIST HERE
 
-    "orioles", "red sox", "yankees", "blue jays", "rays",
+    "orioles", "redsox", "yankees", "blue jays", "rays",
     "whitesox", "guardians", "tigers", "twins", "royals",
     "astros", "athletics", "angels", "mariners", "rangers",
     "mets", "phillies", "nationals", "marlins", "braves",
