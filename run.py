@@ -67,7 +67,7 @@ def display_hangman(tries):
                      --------
                     |      |
                     |      O
-                    |     \\|/
+                    |    \\|/
                     |      |
                     |     / \\
                     -
@@ -100,6 +100,16 @@ def display_hangman(tries):
                    |      O
                    |      |
                    |      |
+                   |     
+                   -
+                """,
+    #DIAGRAM FOR TWO INCORRECT GUESSES
+     """
+                   --------
+                   |      |
+                   |      O
+                   |    
+                   |      
                    |     
                    -
                 """,
