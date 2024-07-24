@@ -12,7 +12,7 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("Let's play Hangman!")
+    print("Can You Guess the Team?")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
@@ -26,7 +26,7 @@ def play(word):
                 tries -= 1
                 guessed_letters.append(guess)
             else:
-                print("Good job,", guess, "is in the word!")
+                print("Well Done", guess, "is in the word!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
                 indices = [i for i, letter in enumerate(word) if letter == guess]
@@ -46,12 +46,12 @@ def play(word):
                 guessed = True
                 word_completion = word
         else:
-            print("Not a valid guess.")
+            print("Not a valid guess. Please Choose Letters Only")
         print(display_hangman(tries))
         print(word_completion)
         print("\n")
     if guessed:
-        print("Congrats, you guessed the word! You win!")
+        print("Congrat! You win!")
     else:
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
 
