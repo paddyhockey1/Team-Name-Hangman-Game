@@ -21,5 +21,8 @@ teram_list = [
     "dodgers", "diamondbacks", "giants", "padres", "rockies",
 
     #ADD NATIONAL HOCKEY LEAGUE (NHL) TEAM LIST HERE
+
+    "maple leafs", "canadiens", "senators", "panthers", "lightning", "bruins", "sabres", "red wings",
+    "hurricanes", "rangers", "devils", "islanders", "flyers", "capitals", "penguins", "blue jackets",
     
 ]
