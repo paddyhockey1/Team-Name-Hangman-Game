@@ -21,7 +21,7 @@ def get_word():
         print("\n")
         while not guessed and tries > 0:
             guess = input("Please choose a Letter: ").upper()
-            if len guess == 1 and guess.isalpha():
+            if len (guess) == 1 and guess.isalpha():
                 if guess in guessed_letters:
                     print("Sorry. Try Again", guess)
                     elif guess not in word:
