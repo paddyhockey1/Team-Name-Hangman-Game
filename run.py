@@ -1,7 +1,3 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
 import random
 
 from teams import team_list
@@ -10,72 +6,69 @@ def get_word():
     word = random.choice(team_list)
     return word.upper()
 
-    def play(word):
-        word_completion = "_" * len(word)
-        guessed = False
-        guessed_letters = []
-        guessed_words = []
-        tries = 6
-        print("Can You Guess the Team Name?")
-        print(display_hangman(tries))
-        print("\n")
-        while not guessed and tries > 0:
-            guess = input("Please choose a Letter: ").upper()
-            if len (guess) == 1 and guess.isalpha():
-                if guess in guessed_letters:
-                    print("Sorry. Try Again", guess)
-                    elif guess not in word:
-                        print(guess "is not in the word.")
-                        tries -= 1
-                       guessed_letters.append(guess)
-                    else:
-                        print("Well Done.", guess, "That is correct!")
-                        guessed_letters.appedn(guess)
-                        word_as_list = 
-                        list(word_completion)
-                        indices = [i for i. letter in enumerate(word) if letter == guess]
-                        for index in indices:
-                            word_as_list[index] = guess
-                            word_completion = "".join(word_as_list)
-                        if "-" not in word_completion:
-                            guessed = True
-            elif len(guess) == len(word) and guess.isalpha():
-                if guess in guessed_words:
-                    print("Please Guess Again", guess)
-                    elif guess != word:
-                        print(guess, "Incorrect.")
-                        tries -= 1
-                        guessed_words.appedn(guess)
+def play(word):
+    word_completion = "_" * len(word)
+    guessed = False
+    guessed_letters = []
+    guessed_words = []
+    tries = 6
+    print("Let's play Hangman!")
+    print(display_hangman(tries))
+    print(word_completion)
+    print("\n")
+    while not guessed and tries > 0:
+        guess = input("Please guess a letter: ").upper()
+        if len(guess) == 1 and guess.isalpha():
+            if guess in guessed_letters:
+                print("You already guessed the letter", guess)
+            elif guess not in word:
+                print(guess, "is not in the word.")
+                tries -= 1
+                guessed_letters.append(guess)
+            else:
+                print("Good job,", guess, "is in the word!")
+                guessed_letters.append(guess)
+                word_as_list = list(word_completion)
+                indices = [i for i, letter in enumerate(word) if letter == guess]
+                for index in indices:
+                    word_as_list[index] = guess
+                word_completion = "".join(word_as_list)
+                if "_" not in word_completion:
+                    guessed = True
+        elif len(guess) == len(word) and guess.isalpha():
+            if guess in guessed_words:
+                print("You already guessed the word", guess)
+            elif guess != word:
+                print(guess, "is not the word.")
+                tries -= 1
+                guessed_words.append(guess)
             else:
                 guessed = True
                 word_completion = word
-            else:
-                print("Sorry, Not a Valid Guess.")
-                print(display.hangman(tries))
-                print(word_completion)
-                print("\n")
-            else: 
-                print("Well Done! You Are correct")
-            else:
-                print("Sorry. The Team Was " + word + ". Better Luck Next
-                
-def display_hangman(tries):
+        else:
+            print("Not a valid guess.")
+        print(display_hangman(tries))
+        print(word_completion)
+        print("\n")
+    if guessed:
+        print("Congrats, you guessed the word! You win!")
+    else:
+        print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
 
-    stages = [
-        #FINAL HANGMAN FOR END OF GAME
+def display_hangman(tries):
+    stages = [  # final state: head, torso, both arms, and both legs
                 """
-                     --------
-                    |      |
-                    |      O
-                    |    \\|/
-                    |      |
-                    |     / \\
-                    -
-    """,
-    #DIAGRAM FOR FIVE INCORRECT GUESSES
-    """
-     
-                    --------
+                   --------
+                   |      |
+                   |      O
+                   |     \\|/
+                   |      |
+                   |     / \\
+                   -
+                """,
+                # head, torso, both arms, and one leg
+                """
+                   --------
                    |      |
                    |      O
                    |     \\|/
@@ -83,8 +76,18 @@ def display_hangman(tries):
                    |     / 
                    -
                 """,
-    # DIAGRAM FOR FOUR INCORRECT GUESSES
-     """
+                # head, torso, and both arms
+                """
+                   --------
+                   |      |
+                   |      O
+                   |     \\|/
+                   |      |
+                   |      
+                   -
+                """,
+                # head, torso, and one arm
+                """
                    --------
                    |      |
                    |      O
@@ -93,8 +96,8 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-    # DIAGRAM FOR THREE INCORRECT GUESSES
-       """
+                # head and torso
+                """
                    --------
                    |      |
                    |      O
@@ -103,8 +106,8 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-    #DIAGRAM FOR TWO INCORRECT GUESSES
-     """
+                # head
+                """
                    --------
                    |      |
                    |      O
@@ -113,9 +116,8 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-
-    # DIAGRAM FOR INITIAL HANGMAN
-     """
+                # initial empty state
+                """
                    --------
                    |      |
                    |      
@@ -127,7 +129,13 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
-    def main():
+
+def main():
+    word = get_word()
+    play(word)
+    while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)
-        while input("Play Again? (Y/N) ").upper() =="Y":
+
+if __name__ == "__main__":
+    main()
