@@ -30,4 +30,8 @@ teram_list = [
     "blues", "blackhawks", "wild", "coyotes",
     "kings", "ducks", "sharks", "kraken",
     "canucks", "oilers", "flames", "golden knights",
+
+    #ADD NATIONAL BASKETBALL ASSOCIATION TEAMS HERE
+
+    
 ]
