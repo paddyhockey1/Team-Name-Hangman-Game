@@ -14,7 +14,7 @@ team_list = [
     #ADD MAJOR LEAGUE BASEBALL (MLB) TEAMS LIST HERE
 
     "orioles", "red sox", "yankees", "blue jays", "rays",
-    "white sox", "guardians", "tigers", "twins", "royals",
+    "whitesox", "guardians", "tigers", "twins", "royals",
     "astros", "athletics", "angels", "mariners", "rangers",
     "mets", "phillies", "nationals", "marlins", "braves",
     "cardinals", "pirates", "brewers", "cubs", "reds",
@@ -23,20 +23,20 @@ team_list = [
     #ADD NATIONAL HOCKEY LEAGUE (NHL) TEAM LIST HERE
 
     "maple leafs", "canadiens", "senators", "panthers", 
-    "lightning", "bruins", "sabres", "red wings",
+    "lightning", "bruins", "sabres", "redwings",
     "hurricanes", "rangers", "devils", "islanders", 
-    "flyers", "capitals", "penguins", "blue jackets",
+    "flyers", "capitals", "penguins", "bluejackets",
     "avalanche", "stars", "jets", "predators", 
     "blues", "blackhawks", "wild", "coyotes",
     "kings", "ducks", "sharks", "kraken",
-    "canucks", "oilers", "flames", "golden knights",
+    "canucks", "oilers", "flames", "goldenknights",
 
     #ADD NATIONAL BASKETBALL ASSOCIATION TEAMS HERE
 
     "celtics", "nets", "knicks", "sixers", "raptors", 
     "bulls", "cavaliers", "pistons", "bucks", "pacers",
     "hawks", "hornets", "heat", "magic", "wizards", 
-    "nuggets", "timberwolves", "thunder", "trail blazers", "jazz", 
+    "nuggets", "timberwolves", "thunder", "trailblazers", "jazz", 
     "warriors", "clippers", "lakers", "suns", "kings", 
     "mavericks", "rockets", "spurs", "grizzlies", "pelicans",
 ]
