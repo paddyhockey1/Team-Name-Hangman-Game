@@ -57,4 +57,19 @@ def get_word():
             else: 
                 print("Well Done! You Are correct")
             else:
-                print("Sorry. The Team Was " + word + ". Better Luck Next Time!") 
+                print("Sorry. The Team Was " + word + ". Better Luck Next
+                
+def display_hangman(tries):
+
+    stages = [
+        """
+          --------
+          |      |
+          |      O
+          |     \\|/
+          |      |
+          |     / \\
+          -
+    """
+    
+    ]
