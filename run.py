@@ -19,3 +19,8 @@ def get_word():
         print("Can You Guess the Team Name?")
         print(display_hangman(tries))
         print("\n")
+        while not guessed and tries > 0:
+            guess = input("Please choose a Letter: ").upper()
+            if len guess == 1 and guess.isalpha():
+                if guess in guessed_letters:
+                    print("Sorry, Letter Already Guessed", guess)
