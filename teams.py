@@ -7,4 +7,10 @@ teram_list = [
     "steelers", "ravens", "browns", "bengals",
     "colts", "jaguars", "titans", "texans",
     "chiefs", "broncos", "raiders", "chargers",
+
+    "orioles", "red sox", "yankees", "blue jays", "rays",
+    "white sox", "guardians", "tigers", "twins", "royals",
+    "astros", "athletics", "angels", "mariners", "rangers",
+    
+
 ]
