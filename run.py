@@ -56,7 +56,7 @@ def play(word):
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
 
 def display_hangman(tries):
-    stages = [  # final state: head, torso, both arms, and both legs
+    stages = [  # FINAL DIAGRAM AFTER ALL GUESSES ARE INCORRECT
                 """
                    --------
                    |      |
@@ -66,7 +66,7 @@ def display_hangman(tries):
                    |     / \\
                    -
                 """,
-                # head, torso, both arms, and one leg
+                # hDIAGRAM AFTER FIVE INCORRECT GUESSES
                 """
                    --------
                    |      |
@@ -76,7 +76,7 @@ def display_hangman(tries):
                    |     / 
                    -
                 """,
-                # head, torso, and both arms
+                # DIAGRAM AFTER FOUR INCORRECT GUESSES
                 """
                    --------
                    |      |
@@ -86,7 +86,7 @@ def display_hangman(tries):
                    |      
                    -
                 """,
-                # head, torso, and one arm
+                # DIAGRAM AFTER THREE INCORRECT GUESSES
                 """
                    --------
                    |      |
@@ -96,7 +96,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head and torso
+                # DIAGRAM AFTER TWO INCORRECT GUESSES
                 """
                    --------
                    |      |
@@ -106,7 +106,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # head
+                # DIAGRAM AFTER ONE INCORRECT GUESS
                 """
                    --------
                    |      |
@@ -116,7 +116,7 @@ def display_hangman(tries):
                    |     
                    -
                 """,
-                # initial empty state
+                # INITIAL HANGMAN DIAGRAM
                 """
                    --------
                    |      |
