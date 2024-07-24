@@ -1,4 +1,7 @@
 teram_list = [
+   
+   #ADD NATIONAL FOOTBALL LEAGUE (NFL) TEAMS LIST HERE
+   
     "bears", "lions", "vikings", "packers",
     "falcons", "saints", "buccaneers", "panthers", 
     "cowboys", "eagles", "commanders", "giants",
@@ -8,6 +11,8 @@ teram_list = [
     "colts", "jaguars", "titans", "texans",
     "chiefs", "broncos", "raiders", "chargers",
 
+    #ADD MAJOR LEAGUE BASEBALL (MLB) TEAMS LIST HERE
+
     "orioles", "red sox", "yankees", "blue jays", "rays",
     "white sox", "guardians", "tigers", "twins", "royals",
     "astros", "athletics", "angels", "mariners", "rangers",
@@ -15,6 +20,6 @@ teram_list = [
     "cardinals", "pirates", "brewers", "cubs", "reds",
     "dodgers", "diamondbacks", "giants", "padres", "rockies",
 
-
-    "maple leafs", "senators", "canadiens", ""
+    #ADD NATIONAL HOCKEY LEAGUE (NHL) TEAM LIST HERE
+    
 ]
