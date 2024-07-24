@@ -15,4 +15,6 @@ teram_list = [
     "cardinals", "pirates", "brewers", "cubs", "reds",
     "dodgers", "diamondbacks", "giants", "padres", "rockies",
 
+
+    "maple leafs", "senators", "canadiens", ""
 ]
