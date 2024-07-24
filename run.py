@@ -94,5 +94,13 @@ def display_hangman(tries):
                    -
                 """,
     # DIAGRAM FOR THREE INCORRECT GUESSES
-
+       """
+                   --------
+                   |      |
+                   |      O
+                   |      |
+                   |      |
+                   |     
+                   -
+                """,
     ]
