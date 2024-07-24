@@ -37,3 +37,24 @@ def get_word():
                         for index in indices:
                             word_as_list[index] = guess
                             word_completion = "".join(word_as_list)
+                        if "-" not in word_completion:
+                            guessed = True
+            elif len(guess) == len(word) and guess.isalpha():
+                if guess in guessed_words:
+                    print("Please Guess Again", guess)
+                    elif guess != word:
+                        print(guess, "Incorrect.")
+                        tries -= 1
+                        guessed_words.appedn(guess)
+            else:
+                guessed = True
+                word_completion = word
+            else:
+                print("Sorry, Not a Valid Guess.")
+                print(display.hangman(tries))
+                print(word_completion)
+                print("\n")
+            else: 
+                print("Well Done! You Are correct")
+            else:
+                print("Sorry. The Team Was " + word + ". Better Luck Next Time!") 
