@@ -33,5 +33,7 @@ teram_list = [
 
     #ADD NATIONAL BASKETBALL ASSOCIATION TEAMS HERE
 
-    
+    "celtics", "nets", "knicks", "sixers", "raptors", 
+    "bulls", "cavaliers", "pistons", "bucks", "pacers",
+    "hawks", "hornets", "heat", "magic", "wizards", 
 ]
