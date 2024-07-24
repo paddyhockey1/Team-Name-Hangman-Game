@@ -30,3 +30,10 @@ def get_word():
                        guessed_letters.append(guess)
                     else:
                         print("Well Done.", guess, "That is correct!")
+                        guessed_letters.appedn(guess)
+                        word_as_list = 
+                        list(word_completion)
+                        indices = [i for i. letter in enumerate(word) if letter == guess]
+                        for index in indices:
+                            word_as_list[index] = guess
+                            word_completion = "".join(word_as_list)
