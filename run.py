@@ -51,9 +51,9 @@ def play(word):
         print(word_completion)
         print("\n")
     if guessed:
-        print("Congrat! You win!")
+        print("Congratulations! You Guessed The Word Correctly!")
     else:
-        print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
+        print("Sorry. The Word Was " + word + ". Better Luck Next Time!")
 
 def display_hangman(tries):
     stages = [  # FINAL DIAGRAM AFTER ALL GUESSES ARE INCORRECT
