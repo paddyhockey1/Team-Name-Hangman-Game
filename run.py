@@ -113,4 +113,15 @@ def display_hangman(tries):
                    |     
                    -
                 """,
+
+    # DIAGRAM FOR INITIAL HANGMAN
+     """
+                   --------
+                   |      |
+                   |      
+                   |    
+                   |      
+                   |     
+                   -
+                """
     ]
