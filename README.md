@@ -62,8 +62,15 @@ The game informs the user from the opening page, through a clear hangman diagram
 
   ![all-correct-guesses](https://github.com/user-attachments/assets/06b7c7d3-ef62-4863-a64b-aa820f6acaa0)
 
-### Completion Failure.
+### Unsuccessful Completion
 
 * when the user is unsuccessful in completing the game, a completed hangman will appear alongside a message informing that they have been unsuccessful and asking if they wish to try agian and wishing them luck in their next attempt
   
   ![all-incorrect](https://github.com/user-attachments/assets/453a13e7-3f4f-40fd-9fb4-1adbe579e2c9)
+
+## Flowchart
+
+![Hangman Lucid Chart](https://github.com/user-attachments/assets/0882030d-65f2-4b48-be24-2cd9124a1cdb)
+
+
+
