@@ -15,6 +15,7 @@ def play(word):
     guessed_words = []
     tries = 6
     print("Can You Guess the Team?")
+    print("You Have 6 Tries")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
