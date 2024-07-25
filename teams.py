@@ -1,6 +1,6 @@
 team_list = [
 
-   # ADD NATIONAL FOOTBALL LEAGUE (NFL) TEAMS LIST HERE
+    # ADD NATIONAL FOOTBALL LEAGUE (NFL) TEAMS LIST HERE
 
     "bears", "lions", "vikings", "packers",
     "falcons", "saints", "buccaneers", "panthers",
