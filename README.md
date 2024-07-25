@@ -22,3 +22,10 @@ The site is for anyone who has an interest in the main North American sports lea
 
 The game informs the user from the opening page, through a clear hangman diagram, that this will be a hangman style game. It will also let the player know when they have performed various tasks. These include: guessing a correct letter, choosing incorrectly, entering an invalid value e.g. a number or symbol, when they have successfully c ompleted the game , and if they have failed to guess the word. The user will also be asked upon completion of the game whether they wish to try agian.
 
+### Future Improvements
+
+* The implementation of a leaderboard and high score facility.
+* Aesthetic improvements as the game, in its current state, can appear quite basic. These include: a wider colour range, an ASCII heading and images for various stages of the game.
+* More leagues and teams could be added to allow for a wider range of words to choose at random.
+* The option for the user to choose what word, by number of letters, they would like to choose prior to making their first letter selection.
+* The ability to select which league and have the answers be from that league only so that the options available would be more focused on the user's choice of league.
