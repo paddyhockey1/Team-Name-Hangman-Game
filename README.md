@@ -37,3 +37,33 @@ The game informs the user from the opening page, through a clear hangman diagram
 * At the beginning the game the user is asked if they wouuld like to play and how many attempts they have before the hangman is complete and they have been unsuccessful in their attempt.
 
 ![opening](https://github.com/user-attachments/assets/b238a5e5-1db1-4d68-8cd1-6f6d13d8c9ea)
+
+### Correct Selection
+
+* The user will be clearly informed when theya re successful in choosing a correct letter. The hangman diagram has been designed to remain the same should the user be correct.
+
+  ![correct-guess](https://github.com/user-attachments/assets/df1ffef4-850b-4d41-ad5a-ceda94711db1)
+
+### Incorrect Guess
+
+* The diagram of the hangman will be updated to reflect the fact that the user has chosen a letter that is not contained within the word. They will also be informed in text that the letter they have chosen is not correct and to select another letter.
+
+  ![incorrect-guess](https://github.com/user-attachments/assets/1bbc8bbf-d6b4-4a3a-8af2-d25ecc770635)
+
+### Invalid Selection
+
+* The player will be visually notified if they attempt to enter an invalid character into the game. Invalid characters are any character that do not satisfy the alphabetic only (inalpha) function included.
+
+![invalid-guess](https://github.com/user-attachments/assets/6b973cf4-3be8-42f3-a00f-af06203f950c)
+
+### Successful Completion
+
+* When they full word is correctly guessed, the screen will reflect this. The user will aslo be congratulated and asked if they wish to play the game again.
+
+  ![all-correct-guesses](https://github.com/user-attachments/assets/06b7c7d3-ef62-4863-a64b-aa820f6acaa0)
+
+### Completion Failure.
+
+* when the user is unsuccessful in completing the game, a completed hangman will appear alongside a message informing that they have been unsuccessful and asking if they wish to try agian and wishing them luck in their next attempt
+  
+  ![all-incorrect](https://github.com/user-attachments/assets/453a13e7-3f4f-40fd-9fb4-1adbe579e2c9)
