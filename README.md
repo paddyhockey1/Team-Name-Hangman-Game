@@ -114,14 +114,34 @@ The game informs the user from the opening page, through a clear hangman diagram
     
 ## Deployment
 
+### Version control
+
+* Github and Github codespace were used to ente the contents of both run and teams pages contained within.
+
+* Git commands were used to allow changes to be made through the commit process. The commit process involves three steps which are outlined below:
+
+  * git add . : This tells the system that there is to be a commit committed in the system.
+  * git commit -m "" : This command contains the content that will appear in the commits of the Github repository and allows for the tracking of changes made.
+  * git push : Pushes the committed change to the repository and must be executed before changes made to pages can be saved.
+
+### Page Deployment
+
 * Deployment through Heroku was completed using the following steps.
+  
   * I created a Heroku account and added my card details.
+    
   * I created my app as Team-Name-Hangman-Game as that was the best option available at the time and chose the region of Europe.
+    
   * Go to settings and change necessary buildpacks (node.js and python) and add config_vars (port-8000).
+    
   * Choose deploy and select Github to link your code to Heroku.
+    
   * Allow automatic deployment as this allows site to be constantly online.
+    
   * The app must be deployed through the main branch which links to the template created for project 3.
+    
   * Wait for the deployment to complete and when "Your app was successfully deployed" appears on screen click the "view" button underneath to see your app in a new tab.
+    
   * click "Run Program" to begin the code and allow the user to see the opening screen.
 
 ## Content
@@ -130,8 +150,9 @@ The game informs the user from the opening page, through a clear hangman diagram
 
   * The app was written using the Python language.
   * The following code content was used:
-    * random: to allow the word chosen to be completed to be a random selection.
-    * inalpha: this function allowed the options chosen by the user to be restricted to letters only and resulted in an on-screen error message if the user chose either a number or a         symbol.
+    * random: To allow the word chosen to be completed to be a random selection.
+    * inalpha: This function allowed the options chosen by the user to be restricted to letters only and resulted in an on-screen error message if the user chose either a number or a         symbol.
+    * else if : This statement allows for  
    
   * Github was used to create both py pages used in this app.
   * LucidChart [Lucid Chart](https://lucid.app/documents#?folder_id=home) was used to create the flow chart.
@@ -139,8 +160,10 @@ The game informs the user from the opening page, through a clear hangman diagram
 
 ## Credits
 
-I would like to thank my facilitator, Marko, for his help in 
+I would like to thank my facilitator, my mentor and my classmates for their help throughout the creation of this app.
+
+I used [Net Ninja](https://www.youtube.com/watch?v=Ozrduu2W9B8&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK) for some of the basic python coding.
  
-  
+I also used both [QuickRef](https://quickref.me/python) and [Codedex](https://www.codedex.io/) for additional help.
 
 
