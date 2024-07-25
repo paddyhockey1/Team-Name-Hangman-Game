@@ -105,11 +105,42 @@ The game informs the user from the opening page, through a clear hangman diagram
 
 ## Unfixed Bugs
 
-* On Heroku the underscores can appear as one long continual line which can obscure the number of letters contained in each word. I tried various alternatives like asterisks adn hash marks but these changes caused the game to give the full word whether or not the chosen letter was correct or not. The best option was to use the underscore as it created less issues than the other alternatives.
+* On Heroku the underscores can appear as one long continual line which can obscure the number of letters contained in each word. I tried various alternatives like asterisks and hash marks but these changes caused the game to give the full word whether or not the chosen letter was correct or not. The best option was to use the underscore as it created less issues than the other alternatives.
 
+## Creation
+
+  * I used Github and Github Codespaces to complete the code for botht the teams page, which contains all the words that can be presented to the user, annd the run page whic contains   
+    the code necessary to allow the page to function and the game to begin and run successfully.
+    
 ## Deployment
 
+* Deployment through Heroku was completed using the following steps.
+  * I created a Heroku account and added my card details.
+  * I created my app as Team-Name-Hangman-Game as that was the best option available at the time and chose the region of Europe.
+  * Go to settings and change necessary buildpacks (node.js and python) and add config_vars (port-8000).
+  * Choose deploy and select Github to link your code to Heroku.
+  * Allow automatic deployment as this allows site to be constantly online.
+  * The app must be deployed through the main branch which links to the template created for project 3.
+  * Wait for the deployment to complete and when "Your app was successfully deployed" appears on screen click the "view" button underneath to see your app in a new tab.
+  * click "Run Program" to begin the code and allow the user to see the opening screen.
 
+## Content
 
+### Technologies Used
+
+  * The app was written using the Python language.
+  * The following code content was used:
+    * random: to allow the word chosen to be completed to be a random selection.
+    * inalpha: this function allowed the options chosen by the user to be restricted to letters only and resulted in an on-screen error message if the user chose either a number or a         symbol.
+   
+  * Github was used to create both py pages used in this app.
+  * LucidChart [Lucid Chart](https://lucid.app/documents#?folder_id=home) was used to create the flow chart.
+  * CI Python Linter [Python Linter](https://pep8ci.herokuapp.com/#) and [Extends Class](https://extendsclass.com/python-tester.html) were used to validate both the code and syntax.
+
+## Credits
+
+I would like to thank my facilitator, Marko, for his help in 
+ 
+  
 
 
