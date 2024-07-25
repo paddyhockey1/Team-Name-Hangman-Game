@@ -78,13 +78,23 @@ The game informs the user from the opening page, through a clear hangman diagram
 
 * I sued Code Institute Python Linter (available [here](https://pep8ci.herokuapp.com/#) for both the run adn teams python pages. Both pages successfully passed with no errors.
 
-A screenshot of the run page validation can be found below here.
+  A screenshot of the run page validation can be found below here.
 
 ![run-page-validation](https://github.com/user-attachments/assets/947df624-fd7f-4060-80dd-ff1b71ed3cf7)
 
-The screenshot of the teams page validation can be found below here.
+  The screenshot of the teams page validation can be found below here.
 
 ![teams-page-validation](https://github.com/user-attachments/assets/a922b956-0721-46fc-8441-ccd3db639a74)
+
+* I also used [Extends Class](https://extendsclass.com/python-tester.html) Python syntax validator to ensure the syntax on both my pages were correct.
+
+  The run page passed without any syntax errors. The screenshot can be found below here.
+
+![python-validator](https://github.com/user-attachments/assets/a0a9fb1a-78d0-41d6-b30a-672d5afc54cd)
+
+  The teams page also passed without any syntax errors. The screenshot can be found below here.
+
+![teams-syntax-validator](https://github.com/user-attachments/assets/5973a002-5090-48ec-84b1-4434ac63ff31)
 
 
 
