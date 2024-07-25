@@ -30,7 +30,7 @@ The game informs the user from the opening page, through a clear hangman diagram
 * The option for the user to choose what word, by number of letters, they would like to choose prior to making their first letter selection.
 * The ability to select which league and have the answers be from that league only so that the options available would be more focused on the user's choice of league.
 
-## testing
+## Testing
 
 * I tested each stage of the game throughout to ensure the game responded the way it was intended.
 
