@@ -96,7 +96,18 @@ The game informs the user from the opening page, through a clear hangman diagram
 
 ![teams-syntax-validator](https://github.com/user-attachments/assets/5973a002-5090-48ec-84b1-4434ac63ff31)
 
+## Bugs
 
+* I originally wanted to choose minus symbols instead of underscores but I found that this would result in the space alloted for the chosen word being elongated unnecessarily.
+
+* I attempted to use the inalnum method instead of the inalpha option as two team names contain numbers (49ers & 76ers) but this made the game respond incorrectly. I remedied this by 
+  changing the respective team names to letters only (niners & sixers) which are sometimes substituted informally for each team.
+
+## Unfixed Bugs
+
+* On Heroku the underscores can appear as one long continual line which can obscure the number of letters contained in each word. I tried various alternatives like asterisks adn hash marks but these changes caused the game to give the full word whether or not the chosen letter was correct or not. The best option was to use the underscore as it created less issues than the other alternatives.
+
+## Deployment
 
 
 
