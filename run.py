@@ -32,8 +32,8 @@ def play(word):
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
             indices = [i for i, letter in enumerate(word) if letter == guess]
-                for index in indices:
-                    word_as_list[index] = guess
+            for index in indices:
+                word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
                 if "_" not in word_completion:
                     guessed = True
@@ -76,7 +76,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|/
                    |      |
-                   |     / 
+                   |     /
                    -
                 """,
                 # DIAGRAM AFTER FOUR INCORRECT GUESSES
@@ -86,7 +86,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|/
                    |      |
-                   |      
+                   |
                    -
                 """,
                 # DIAGRAM AFTER THREE INCORRECT GUESSES
@@ -96,7 +96,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|
                    |      |
-                   |     
+                   |
                    -
                 """,
                 # DIAGRAM AFTER TWO INCORRECT GUESSES
@@ -106,7 +106,7 @@ def display_hangman(tries):
                    |      O
                    |      |
                    |      |
-                   |     
+                   |
                    -
                 """,
                 # DIAGRAM AFTER ONE INCORRECT GUESS
@@ -114,19 +114,19 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |    
-                   |      
-                   |     
+                   |
+                   |
+                   |
                    -
                 """,
                 # INITIAL HANGMAN DIAGRAM
                 """
                    --------
                    |      |
-                   |      
-                   |    
-                   |      
-                   |     
+                   |
+                   |
+                   |
+                   |
                    -
                 """
     ]
