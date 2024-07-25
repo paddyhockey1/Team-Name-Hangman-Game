@@ -30,6 +30,23 @@ The game informs the user from the opening page, through a clear hangman diagram
 * The option for the user to choose what word, by number of letters, they would like to choose prior to making their first letter selection.
 * The ability to select which league and have the answers be from that league only so that the options available would be more focused on the user's choice of league.
 
+## testing
+
+* I tested each stage of the game throughout to ensure the game responded the way it was intended.
+
+* I tested entering multiple letters in one attempt but the game would not allow this as it was designed not to.
+
+* I tested entering invalid entries such as numbers ans symbols and the page gave me a message that the page would only accept letters.
+
+* Entering both lowercase and uppercase letters led to no change in the way the game reacted. The game does give the answer in uppercase only as by design.
+
+* The diagram for the hangman was tested through every stage to ensure the correct diagram appeared woth the correct corresponding number of guesses, both correct and incorrect.
+
+* Completion of the game both correctly and incorrectly resulted in the correct message being displayed to the user as was intended.
+
+* The option to replay the game upon completion was also successfully completed upon testing.
+
+
 ## Features
 
 ### Opening Screen
@@ -160,10 +177,10 @@ The game informs the user from the opening page, through a clear hangman diagram
 
 ## Credits
 
-I would like to thank my facilitator, my mentor and my classmates for their help throughout the creation of this app.
+* I would like to thank my facilitator, my mentor and my classmates for their help throughout the creation of this app.
 
-I used [Net Ninja](https://www.youtube.com/watch?v=Ozrduu2W9B8&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK) for some of the basic python coding.
+* I used [Net Ninja](https://www.youtube.com/watch?v=Ozrduu2W9B8&list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK) for some of the basic python coding.
  
-I also used both [QuickRef](https://quickref.me/python) and [Codedex](https://www.codedex.io/) for additional help.
+* I also used both [QuickRef](https://quickref.me/python) and [Codedex](https://www.codedex.io/) for additional help.
 
-
+* I used [Python Youtube Code](https://github.com/kiteco/python-youtube-code/tree/master/build-hangman-in-python) for some of the coding necessary o complete this app that I was previously unfamiliar with.
