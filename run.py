@@ -2,9 +2,11 @@ import random
 
 from teams import team_list
 
+
 def get_word():
     word = random.choice(team_list)
     return word.upper()
+
 
 def play(word):
     word_completion = "_" * len(word)
@@ -29,7 +31,7 @@ def play(word):
                 print("Congratulatons", guess, "is in the word!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
-                indices = [i for i, letter in enumerate(word) if letter == guess]
+            indices = [i for i, letter in enumerate(word) if letter == guess]
                 for index in indices:
                     word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
@@ -54,6 +56,7 @@ def play(word):
         print("Congratulations! You Guessed The Word Correctly!")
     else:
         print("Sorry. The Word Was " + word + ". Better Luck Next Time!")
+
 
 def display_hangman(tries):
     stages = [  # FINAL DIAGRAM AFTER ALL GUESSES ARE INCORRECT
@@ -136,6 +139,7 @@ def main():
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)
+
 
 if __name__ == "__main__":
     main()
