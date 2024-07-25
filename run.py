@@ -9,7 +9,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = "-" * len(word)
+    word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -35,7 +35,7 @@ def play(word):
             for index in indices:
                 word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
-                if "-" not in word_completion:
+                if "_" not in word_completion:
                     guessed = True
         elif len(guess) == len(word) and guess.isalpha():
             if guess in guessed_words:
