@@ -171,9 +171,10 @@ The game informs the user from the opening page, through a clear hangman diagram
     * inalpha: This function allowed the options chosen by the user to be restricted to letters only and resulted in an on-screen error message if the user chose either a number or a         symbol.
     * else if : This statement allows for  
    
-  * Github was used to create both py pages used in this app.
-  * LucidChart [Lucid Chart](https://lucid.app/documents#?folder_id=home) was used to create the flow chart.
-  * CI Python Linter [Python Linter](https://pep8ci.herokuapp.com/#) and [Extends Class](https://extendsclass.com/python-tester.html) were used to validate both the code and syntax.
+  * [Github](https://github.com/) was used to create both py pages used in this app.
+  * [Lucid Chart](https://lucid.app/documents#?folder_id=home) was used to create the flow chart.
+  * [Python Linter](https://pep8ci.herokuapp.com/#) and [Extends Class](https://extendsclass.com/python-tester.html) were used to validate both the code and syntax.
+  * [Heroku](https://dashboard.heroku.com/apps) was used for deployment
 
 ## Credits
 
