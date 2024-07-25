@@ -22,7 +22,7 @@ team_list = [
 
     # ADD NATIONAL HOCKEY LEAGUE (NHL) TEAM LIST HERE
 
-    "maple leafs", "canadiens", "senators", "panthers",
+    "mapleleafs", "canadiens", "senators", "panthers",
     "lightning", "bruins", "sabres", "redwings",
     "hurricanes", "rangers", "devils", "islanders",
     "flyers", "capitals", "penguins", "bluejackets",
