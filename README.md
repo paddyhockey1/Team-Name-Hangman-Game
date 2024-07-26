@@ -1,6 +1,6 @@
 # Team Name Hangman Game
 
-![opening](https://github.com/user-attachments/assets/2d1b2fd4-3e52-4e15-b1d1-6f7e5c8b3d9c)
+![Screenshot 2024-07-26 140656](https://github.com/user-attachments/assets/afef10d9-bf4c-4e66-814c-41f110e5050f)
 
 Team Name Game is a Pyhton terminal game to test player' knowledge on the teams in the "big four" North American sports leagues. These contain: Major League Baseball (MLB), National Basketball Association (NBA), National Football League (NFL), and National Hockey league (NHL).
 The player must try to guess the team name that is chosen at random and is penalised every time they choose an incorrect letter. If the player manages to correctly guess all the letters, they have won the game. Should their guess be incorrect, they will gradually be adding to a built-in hangman diagram and after 5 incorrect gueses the diagram will be complete and they will have been unsuccessfl in winning the game.
