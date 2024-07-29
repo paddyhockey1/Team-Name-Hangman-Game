@@ -2,10 +2,14 @@ import random
 
 from teams import team_list
 
+# FUNCTION FOR ENSURING WORD ISW CHOSEN AT RANDOM
+
 
 def get_word():
     word = random.choice(team_list)
     return word.upper()
+
+# FUNCTION FOR DECIDING NUMBER OF TRIES AND PLACING UNDERSCORES
 
 
 def play(word):
@@ -70,7 +74,7 @@ def display_hangman(tries):
                    |     / \\
                    -
                 """,
-                # hDIAGRAM AFTER FIVE INCORRECT GUESSES
+                # DIAGRAM AFTER FIVE INCORRECT GUESSES
                 """
                    --------
                    |      |
